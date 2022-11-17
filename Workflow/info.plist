@@ -200,7 +200,7 @@
 				<key>subtext</key>
 				<string>Play a round of table tennis with Alfred</string>
 				<key>title</key>
-				<string>PingPong</string>
+				<string>Ping Pong</string>
 				<key>withspace</key>
 				<false/>
 			</dict>
@@ -308,29 +308,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>[[ -n "${score}" ]] &amp;&amp; bc &lt;&lt;&lt; "${score} + 1" | tr -d '\n' || echo -n '1'</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>5</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>55A5D5A9-9CF8-4690-B26F-647A8E8405B8</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -422,6 +399,29 @@ fi</string>
 			<string>888760AA-73CF-48C2-B2EC-D5A451EC43D5</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>[[ -n "${score}" ]] &amp;&amp; bc &lt;&lt;&lt; "${score} + 1" | tr -d '\n' || echo -n '1'</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>55A5D5A9-9CF8-4690-B26F-647A8E8405B8</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>

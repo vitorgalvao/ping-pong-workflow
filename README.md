@@ -2,7 +2,7 @@
 
 Play a round of table tennis with Alfred
 
-<a href='https://alfred.app/workflows/vitor/ping-pong'>⤓ Install From the Alfred Gallery</a>
+<a href='https://alfred.app/workflows/vitor/ping-pong'>⤓ Install on the Alfred Gallery</a>
 
 ## Usage
 
