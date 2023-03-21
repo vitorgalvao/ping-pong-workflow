@@ -507,7 +507,7 @@ fi</string>
 	<key>readme</key>
 	<string>## Usage
 
-Start a round of table tennis against Alfred via the Game Keyword (default: `ping`). Hit `Pong!` to continue playing.
+Start a round of table tennis against Alfred via the `ping` keyword. Hit `Pong!` to continue playing.
 
 ![Difficulty modes](images/about/difficulty.png)
 
