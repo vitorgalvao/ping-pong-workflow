@@ -2,11 +2,11 @@
 
 Play a round of table tennis with Alfred
 
-<a href='https://alfred.app/workflows/vitor/ping-pong'>⤓ Install on the Alfred Gallery</a>
+[⤓ Install on the Alfred Gallery](https://alfred.app/workflows/vitor/ping-pong)
 
 ## Usage
 
-Start a round of table tennis against Alfred via the Game Keyword (default: `ping`). Hit `Pong!` to continue playing.
+Start a round of table tennis against Alfred via the `ping` keyword. Hit `Pong!` to continue playing.
 
 ![Difficulty modes](Workflow/images/about/difficulty.png)
 
