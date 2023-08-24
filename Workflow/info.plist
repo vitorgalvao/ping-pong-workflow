@@ -389,7 +389,7 @@ fi</string>
 				<key>title</key>
 				<string></string>
 				<key>type</key>
-				<integer>5</integer>
+				<integer>11</integer>
 				<key>withspace</key>
 				<false/>
 			</dict>
@@ -414,7 +414,7 @@ fi</string>
 				<key>scriptfile</key>
 				<string></string>
 				<key>type</key>
-				<integer>5</integer>
+				<integer>11</integer>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
