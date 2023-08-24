@@ -628,7 +628,7 @@ If you `Miss…`, the game is over and your score is shown.
 		</dict>
 	</array>
 	<key>version</key>
-	<string>2023.1</string>
+	<string>2023.2</string>
 	<key>webaddress</key>
 	<string>https://github.com/vitorgalvao/ping-pong-workflow/</string>
 </dict>
