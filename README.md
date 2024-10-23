@@ -1,6 +1,6 @@
 # <img src='Workflow/icon.png' width='45' align='center' alt='icon'> Ping Pong Alfred Workflow
 
-Play a round of table tennis with Alfred
+Play a round of table tennis
 
 [⤓ Install on the Alfred Gallery](https://alfred.app/workflows/vitor/ping-pong)
 
