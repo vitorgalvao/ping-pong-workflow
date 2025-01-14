@@ -32,7 +32,7 @@
 				<false/>
 			</dict>
 		</array>
-		<key>3872A3DE-5E6A-4DF1-B4FF-16A901B31066</key>
+		<key>25374AF6-7AC3-4AC0-BF4D-6CE7567838FA</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
@@ -41,6 +41,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>sourceoutputuid</key>
+				<string>FB01079B-A6A6-4FB7-A601-6F6514C4F98B</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -58,24 +60,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>58DBCE64-6BAF-4F40-BF19-4497688D62E4</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>8E7FDD5A-DD40-4B4F-A380-DF5052CFEC97</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>888760AA-73CF-48C2-B2EC-D5A451EC43D5</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>3872A3DE-5E6A-4DF1-B4FF-16A901B31066</string>
+				<string>25374AF6-7AC3-4AC0-BF4D-6CE7567838FA</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -85,7 +74,7 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>9C6FF743-1B9F-4650-BAC2-F1216BAC3E1D</string>
+				<string>C42EF17F-98A6-4300-BBD1-59BD213D394E</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -95,7 +84,7 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>58DBCE64-6BAF-4F40-BF19-4497688D62E4</string>
+				<string>BDCA60F2-6CFA-4CB4-B9CD-ABE59263465B</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -109,19 +98,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>EF9EE662-44E3-4DCC-B78B-78D298D09741</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>9C6FF743-1B9F-4650-BAC2-F1216BAC3E1D</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>55A5D5A9-9CF8-4690-B26F-647A8E8405B8</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -152,6 +128,36 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>BDCA60F2-6CFA-4CB4-B9CD-ABE59263465B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8E7FDD5A-DD40-4B4F-A380-DF5052CFEC97</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>FB01079B-A6A6-4FB7-A601-6F6514C4F98B</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C42EF17F-98A6-4300-BBD1-59BD213D394E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>55A5D5A9-9CF8-4690-B26F-647A8E8405B8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>FB01079B-A6A6-4FB7-A601-6F6514C4F98B</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -192,7 +198,7 @@
 				<key>items</key>
 				<string>[{"title":"Easy","arg":"easy","subtitle":"No time limit, just play around a bit"},{"title":"Medium","arg":"medium","subtitle":"Doable, but you might reach for the shortcut keys"},{"title":"Hard","arg":"hard","subtitle":"This was supposed to be relaxing"}]</string>
 				<key>keyword</key>
-				<string>ping</string>
+				<string>{var:game_keyword}</string>
 				<key>matchmode</key>
 				<integer>0</integer>
 				<key>runningsubtext</key>
@@ -227,25 +233,6 @@
 			<string>alfred.workflow.output.callexternaltrigger</string>
 			<key>uid</key>
 			<string>EF9EE662-44E3-4DCC-B78B-78D298D09741</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>inputstring</key>
-				<string>{query}</string>
-				<key>matchcasesensitive</key>
-				<true/>
-				<key>matchmode</key>
-				<integer>0</integer>
-				<key>matchstring</key>
-				<string>new_game</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.filter</string>
-			<key>uid</key>
-			<string>3872A3DE-5E6A-4DF1-B4FF-16A901B31066</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -287,6 +274,38 @@
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>A404F9EE-CB02-4B46-AE2D-D0040B9F6737</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<true/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>new_game</string>
+						<key>outputlabel</key>
+						<string>New Game</string>
+						<key>uid</key>
+						<string>FB01079B-A6A6-4FB7-A601-6F6514C4F98B</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string></string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>25374AF6-7AC3-4AC0-BF4D-6CE7567838FA</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -428,6 +447,38 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<true/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>hit</string>
+						<key>outputlabel</key>
+						<string>Hit</string>
+						<key>uid</key>
+						<string>FB01079B-A6A6-4FB7-A601-6F6514C4F98B</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string></string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>C42EF17F-98A6-4300-BBD1-59BD213D394E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argument</key>
 				<string></string>
 				<key>passthroughargument</key>
@@ -444,25 +495,6 @@ fi</string>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>DFA03B59-0513-4DF7-AD25-D567823FDDFA</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>inputstring</key>
-				<string>{query}</string>
-				<key>matchcasesensitive</key>
-				<true/>
-				<key>matchmode</key>
-				<integer>0</integer>
-				<key>matchstring</key>
-				<string>hit</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.filter</string>
-			<key>uid</key>
-			<string>9C6FF743-1B9F-4650-BAC2-F1216BAC3E1D</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -489,19 +521,32 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>inputstring</key>
-				<string>{query}</string>
-				<key>matchcasesensitive</key>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<true/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>miss</string>
+						<key>outputlabel</key>
+						<string>Miss</string>
+						<key>uid</key>
+						<string>FB01079B-A6A6-4FB7-A601-6F6514C4F98B</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string></string>
+				<key>hideelse</key>
 				<true/>
-				<key>matchmode</key>
-				<integer>0</integer>
-				<key>matchstring</key>
-				<string>miss</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.filter</string>
+			<string>alfred.workflow.utility.conditional</string>
 			<key>uid</key>
-			<string>58DBCE64-6BAF-4F40-BF19-4497688D62E4</string>
+			<string>BDCA60F2-6CFA-4CB4-B9CD-ABE59263465B</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -534,7 +579,7 @@ If you `Miss…`, the game is over and your score is shown.
 			<key>ypos</key>
 			<real>145</real>
 		</dict>
-		<key>3872A3DE-5E6A-4DF1-B4FF-16A901B31066</key>
+		<key>25374AF6-7AC3-4AC0-BF4D-6CE7567838FA</key>
 		<dict>
 			<key>xpos</key>
 			<real>420</real>
@@ -547,13 +592,6 @@ If you `Miss…`, the game is over and your score is shown.
 			<real>510</real>
 			<key>ypos</key>
 			<real>145</real>
-		</dict>
-		<key>58DBCE64-6BAF-4F40-BF19-4497688D62E4</key>
-		<dict>
-			<key>xpos</key>
-			<real>420</real>
-			<key>ypos</key>
-			<real>285</real>
 		</dict>
 		<key>888760AA-73CF-48C2-B2EC-D5A451EC43D5</key>
 		<dict>
@@ -569,13 +607,6 @@ If you `Miss…`, the game is over and your score is shown.
 			<key>ypos</key>
 			<real>285</real>
 		</dict>
-		<key>9C6FF743-1B9F-4650-BAC2-F1216BAC3E1D</key>
-		<dict>
-			<key>xpos</key>
-			<real>420</real>
-			<key>ypos</key>
-			<real>175</real>
-		</dict>
 		<key>A404F9EE-CB02-4B46-AE2D-D0040B9F6737</key>
 		<dict>
 			<key>xpos</key>
@@ -589,6 +620,20 @@ If you `Miss…`, the game is over and your score is shown.
 			<real>640</real>
 			<key>ypos</key>
 			<real>25</real>
+		</dict>
+		<key>BDCA60F2-6CFA-4CB4-B9CD-ABE59263465B</key>
+		<dict>
+			<key>xpos</key>
+			<real>420</real>
+			<key>ypos</key>
+			<real>285</real>
+		</dict>
+		<key>C42EF17F-98A6-4300-BBD1-59BD213D394E</key>
+		<dict>
+			<key>xpos</key>
+			<real>420</real>
+			<key>ypos</key>
+			<real>175</real>
 		</dict>
 		<key>DFA03B59-0513-4DF7-AD25-D567823FDDFA</key>
 		<dict>
